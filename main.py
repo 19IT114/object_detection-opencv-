@@ -7,7 +7,7 @@ cascade_classifier = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface
 while True:
     ret, frame = cap.read()
     frame = cv2.cvtColor(frame,0)
-    detections = cascade_classifier.detectMultiScale(frame, 1.3, 5)
+    detections = cascade_classifier.detectMultiScale(frame, 1.1, 9)
 
     if(len(detections) > 0):
         (x,y,w,h) = detections[0]
