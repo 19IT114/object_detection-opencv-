@@ -12,7 +12,7 @@ FOR DETECTION OF FACE  and COUNTING:
 5.  Count the total number of faces detected.
 
 
-# Approach for objct Detection and Tracking
+# Approach for object Detection and Tracking
 
 In the absence of any a priori scene knowledge, the most widely used method for moving object detection is background subtraction . It consists of three steps; background initialization, foreground extraction, and background maintenance . A model of the observed scene is estimated using few initial frames during background initialization. 
 
